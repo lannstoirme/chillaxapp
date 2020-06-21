@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "ChillaxApp",
+    "name": "Chillax App",
     "slug": "chillax-app",
     "privacy": "public",
-    "sdkVersion": "37.0.0",
+    "sdkVersion": "^37.0.0",
     "platforms": [
       "ios",
       "android"
     ],
-    "version": "1.5.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -25,6 +25,6 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": "Chillax App, coded by LannStoirme"
+    "description": "Chillax App, an app to help someone enter the state of zen"
   }
 }
