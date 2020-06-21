@@ -19,7 +19,7 @@ import Home from "../screens/Home";
 import Onboarding from "../screens/Onboarding";
 import MeditationApp from "../musicsrc/MeditationApp";
 import Activities from "../swiper/swiperindex";
-import JoeChat from "../screens/Joechat";
+import JoeChat from "../screens/JoeChat";
 import Blog from "../screens/Blog";
 import SuicideHotline from "../screens/SuicideHotline";
 

@@ -11,7 +11,7 @@ import * as WebBrowser from 'expo-web-browser';
 
  
 // ...
-class Blog extends Component {
+class Blog extends React.Component {
   render() {
     return <View><Text>Visit Our Blog</Text><Button
     title="Go to Details"

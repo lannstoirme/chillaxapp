@@ -17,12 +17,6 @@ import { RectButton } from 'react-native-gesture-handler';//
 import { Card } from '../components';
 import articles from '../constants/articles';
 const { width } = Dimensions.get('screen');
-//import ActTherapy from '../screens/ActView';
-//import Despair from '../screens/DespairView';
-//import WrongBeliefs from '../screens/WrongBeliefsView';
-//import Anxiety from '../screens/AnxietyView';
-//import Depression from '../screens/DepressionView';
-//import Counsellor from '../screens/CounsellorView';
 
 //change code to WebBrowser
 
