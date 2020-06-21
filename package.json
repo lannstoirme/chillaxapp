@@ -1,7 +1,7 @@
 {
-  "name": "argon-react-native",
-  "version": "1.5.0",
-  "description": "Argon React Native, based on Argon Design System. Coded by Creative Tim",
+  "name": "chillax-app",
+  "version": "1.0.0",
+  "description": "Chillax App Created to Give a Zen Experience",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-react-native.git"
+    "url": "https://github.com/lannstoirme/chillaxapp.git"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.6",
@@ -24,6 +24,7 @@
     "expo": "^37.0.0",
     "expo-asset": "~8.1.5",
     "expo-font": "~8.1.0",
+    "expo-web-browser": "^8.2.1",
     "galio-framework": "^0.6.3",
     "prop-types": "^15.7.2",
     "react": "16.9.0",
@@ -32,33 +33,35 @@
     "react-native-modal-dropdown": "^0.7.0",
     "react-native-reanimated": "~1.7.0",
     "react-native-safe-area-context": "0.7.3",
-    "react-native-screens": "~2.2.0"
+    "react-native-screens": "~2.2.0",
+    "react-native-slider": "^0.11.0",
+    "clamp": "^1.0.1"
   },
   "devDependencies": {
     "babel-preset-expo": "^8.2.1"
   },
   "keywords": [
-    "argon react native",
-    "argon design system",
-    "argon app react native",
-    "argon iOS",
-    "react native iOS",
-    "creative tim",
-    "argon Android",
-    "react native ui kit",
-    "react native expo",
-    "freebie",
-    "react native argon design",
-    "react native galio",
-    "galio argon free",
-    "galio react native free app",
-    "argon expo react native",
-    "react native ui template"
+    "chillax app",
+    "mental health",
+    "therapy",
+    "cognitive behavioural therapy app",
+    "counselling bot",
+    "therapy chatbot",
+    "robot psychologist",
+    "health information app",
+    "mental health assitance",
+    "depression and anxiety",
+    "panic attack",
+    "post traumatic stress disorder",
+    "self harm",
+    "suidical",
+    "counselling",
+    "therapy"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "LannStoirme <veronicalswoodward@gmail.com> ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-react-native/issues"
+    "url": "https://github.com/lannstoirme/chillaxapp.git"
   },
-  "homepage": "https://demos.creative-tim.com/argon-react-native"
+  "homepage": "https://sites.google.com/view/lannstoirme/home"
 }
