@@ -3,18 +3,20 @@ import { Button, View, Text, StyleSheet, Dimensions, ScrollView } from 'react-na
 import { Block, theme } from 'galio-framework';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import * as WebBrowser from 'expo-web-browser';
+import { RectButton } from 'react-native-gesture-handler';//
 
 import { Card } from '../components';
 import articles from '../constants/articles';
 const { width } = Dimensions.get('screen');
-import ActTherapy from '../screens/ActView';
-import Despair from '../screens/DespairView';
-import WrongBeliefs from '../screens/WrongBeliefsView';
-import Anxiety from '../screens/AnxietyView';
-import Depression from '../screens/DepressionView';
-import Counsellor from '../screens/CounsellorView';
+//import ActTherapy from '../screens/ActView';
+//import Despair from '../screens/DespairView';
+//import WrongBeliefs from '../screens/WrongBeliefsView';
+//import Anxiety from '../screens/AnxietyView';
+//import Depression from '../screens/DepressionView';
+//import Counsellor from '../screens/CounsellorView';
 
-
+//change code to WebBrowser
 
 class Home extends React.Component {
   renderArticles = () => {
@@ -26,36 +28,36 @@ class Home extends React.Component {
           <Card item={articles[0]} horizontal  />
           <Button
             title="Go to Details"
-            onPress={() => navigation.navigate(ActTherapy)}
+            onPress={() => WebBrowser.openBrowserAsync('https://positivepsychology.com/act-acceptance-and-commitment-therapy/')}
             />
           <Block flex row>
             <Card item={articles[1]} style={{ marginRight: theme.SIZES.BASE }} />
             <Button
             title="Go to Details"
-            onPress={() => navigation.navigate(Despair)}
+            onPress={() => WebBrowser.openBrowserAsync('https://sites.google.com/view/chillaxapp/despair')}
             />
             <Card item={articles[2]} />
             <Button
             title="Go to Details"
-            onPress={() => navigation.navigate(WrongBeliefs)}
+            onPress={() => WebBrowser.openBrowserAsync('https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral')}
             />
           </Block>
           <Card item={articles[3]} horizontal />
           <Button
             title="Go to Details"
-            onPress={() => navigation.navigate(Anxiety)}
+            onPress={() => WebBrowser.openBrowserAsync('https://www.healthline.com/health/how-to-stop-a-panic-attack')}
             />
           <Card item={articles[4]} full />
           <Button
             title="Go to Details"
-            onPress={() => navigation.navigate(Depression)}
+            onPress={() => WebBrowser.openBrowserAsync('https://www.helpguide.org/articles/depression/coping-with-depression.htm')}
             />
         </Block>
         <Block flex row>
           <Card item={articles[5]} style={{ marginRight: theme.SIZES.BASE }} />
           <Button
            title="Go to Details"
-           onPress={() => navigation.navigate(Counsellor)} 
+           onPress={() => WebBrowser.openBrowserAsync('https://www.psychologytoday.com/au/blog/freudian-sip/201102/how-find-the-best-therapist-you')} 
           />
         </Block>
       </ScrollView>

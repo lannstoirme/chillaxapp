@@ -10,22 +10,11 @@ import { Block } from "galio-framework";
 // screens
 import Home from "../screens/Home";
 import Onboarding from "../screens/Onboarding";
-//import Pro from "../screens/Pro";
-//import Profile from "../screens/Profile";
-//import Register from "../screens/Register";
-//import Elements from "../screens/Elements";
-//import Articles from "../screens/Articles";
 import MeditationApp from "../musicsrc/MeditationApp";
 import Activities from "../swiper/swiperindex";
 import JoeChat from "../screens/Joechat";
 import Blog from "../screens/Blog";
 import SuicideHotline from "../screens/SuicideHotline";
-import Anxiety from "../screens/AnxietyView";
-import ActTherapy from "../screen/ActView;"
-import Counsellor from "../screens/CounsellorView";
-import Depression from "../screens/DepressionView";
-import Despair from "../screens/DespairView";
-import WrongBeliefs from "../screens/WrongBeliefView";
 
 
 
@@ -64,108 +53,6 @@ function HomeStack(props) {
       <Stack.Screen
         name="SuicideHotline"
         component={SuicideHotline}
-        options={{
-          header: ({ navigation, scene }) => (
-            <Header
-              title=""
-              back
-              white
-              transparent
-              navigation={navigation}
-              scene={scene}
-            />
-          ),
-          headerTransparent: true
-        }}
-      />
-      <Stack.Screen
-        name="Anxiety"
-        component={Anxiety}
-        options={{
-          header: ({ navigation, scene }) => (
-            <Header
-              title=""
-              back
-              white
-              transparent
-              navigation={navigation}
-              scene={scene}
-            />
-          ),
-          headerTransparent: true
-        }}
-      />
-      <Stack.Screen
-        name="ActTherapy"
-        component={ActTherapy}
-        options={{
-          header: ({ navigation, scene }) => (
-            <Header
-              title=""
-              back
-              white
-              transparent
-              navigation={navigation}
-              scene={scene}
-            />
-          ),
-          headerTransparent: true
-        }}
-      />
-      <Stack.Screen
-        name="Counsellor"
-        component={Counsellor}
-        options={{
-          header: ({ navigation, scene }) => (
-            <Header
-              title=""
-              back
-              white
-              transparent
-              navigation={navigation}
-              scene={scene}
-            />
-          ),
-          headerTransparent: true
-        }}
-      />
-      <Stack.Screen
-        name="Depression"
-        component={Depression}
-        options={{
-          header: ({ navigation, scene }) => (
-            <Header
-              title=""
-              back
-              white
-              transparent
-              navigation={navigation}
-              scene={scene}
-            />
-          ),
-          headerTransparent: true
-        }}
-      />
-      <Stack.Screen
-        name="Despair"
-        component={Despair}
-        options={{
-          header: ({ navigation, scene }) => (
-            <Header
-              title=""
-              back
-              white
-              transparent
-              navigation={navigation}
-              scene={scene}
-            />
-          ),
-          headerTransparent: true
-        }}
-      />
-      <Stack.Screen
-        name="WrongBeliefs"
-        component={WrongBeliefs}
         options={{
           header: ({ navigation, scene }) => (
             <Header
